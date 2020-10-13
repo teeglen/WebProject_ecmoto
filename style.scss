@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+$color-main: #252525;
+$color-sub: #6eb3ff;
+$color-bg-gray: #f9f9f9;
+$color-while: #cdcdcd;
+
+// 文字大小：最大
+$font-size-big: 36px;
+// 字體
+$font-family-main: "Bebas Neue", cursive;
+// RWD：桌機、平板、手機
+$desktop:1025px;
+$table:1024px;
+$mobile:767px;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 微軟正黑體;
+    color: $color-main;
+}
+
+header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 60px;
+    padding: 0 5%;
+    text-align: left;
+    z-index: 1;
+    h1 {
+      display: inline-block;
+      font-size: 22px;
+      font-weight: bold;
+      padding-top: 18px;
+    }
+    nav {
+      display: inline-block;
+      float: right;
+      ul {
+        li {
+          display: inline-block;
+          vertical-align: top;
+          font-size: 13px;
+          a {
+            display: block;
+            padding: 24px 15px;
+            &:hover {
+              background-color: rgba(#fff, .18);
+            }
+          }
+        }
+      }
+    }
+  }

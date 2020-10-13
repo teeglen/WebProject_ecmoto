@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>騰輝電動車</title>
+  <!--  Slick CDN  -->
+  <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+  <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
+
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <header>
+    <h1>騰輝電動車</h1>
+    <nav>
+      <ul>
+        <li><a href="#">產品項目</a></li>
+        <li><a href="#">銷售通路</a></li>
+        <li><a href="#">補助資訊</a></li>
+        <li><a href="#">聯絡我們</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="slider1">
+    <img src="./img/banner1.png" alt="">
+    <img src="./img/banner2.png" alt="">
+  </section>
+
+
+
+
+
+
+
+
+
+  <!--  jQuery CDN  -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <!--  Slick CDN  -->
+  <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+  <!-- 啟動輪播圖 -->
+  <script>
+    $("#slider1").slick({
+      adaptiveHeight: true,
+      arrows: false,
+      dots: true,
+      speed: 1000
+    });
+  </script>
+
+</body>
+
+</html>
